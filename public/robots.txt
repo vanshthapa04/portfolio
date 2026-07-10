@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vansh-portfolio-051.vercel.app/sitemap.xml
