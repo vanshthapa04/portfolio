@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "AI-generated recommendations"
     ],
     stack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "AI APIs"],
-    image: "https://vansh-portfolio-051.vercel.app/projects/recruiter-lens.png",
+    image: "/projects/recruiterlens.png",
     github: "https://github.com/vanshthapa04/RecruiterLens",
     demo: "https://recruiter-lens-vanshthapa04s-projects.vercel.app/",
     featured: true
@@ -44,7 +44,7 @@ export const projects: Project[] = [
       "Feature and pattern detection"
     ],
     stack: ["React", "Node.js", "Express", "GitHub REST API", "Gemini API"],
-    image: "https://vansh-portfolio-051.vercel.app/projects/repomind.png",
+    image: "/projects/repomind.png",
     github: "https://github.com/vanshthapa04/RepoMindAI",
     demo: "https://repo-mind-ai.vercel.app/",
     featured: true
@@ -62,7 +62,7 @@ export const projects: Project[] = [
       "Career guidance"
     ],
     stack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-    image: "https://vansh-portfolio-051.vercel.app/projects/HireReadyAI.png",
+    image: "/projects/hireready.png",
     github: "https://github.com/vanshthapa04/HireReadyAI-frontend-",
     demo: "https://hire-ready-ai-frontend.vercel.app/",
     featured: true
@@ -80,7 +80,7 @@ export const projects: Project[] = [
       "Query result visualization"
     ],
     stack: ["React", "Node.js", "PostgreSQL"],
-    image: "https://vansh-portfolio-051.vercel.app/projects/sql.png",
+    image: "/projects/sqlsandbox.png",
     github: "https://github.com/vanshthapa04/CipherSchools-sql-studio",
     demo: null,
     featured: false
@@ -98,7 +98,7 @@ export const projects: Project[] = [
       "Responsive dashboard"
     ],
     stack: ["MERN", "JWT"],
-    image: "https://vansh-portfolio-051.vercel.app/projects/knoledgeHub.png",
+    image: "/projects/knowledgehub.png",
     github: "https://github.com/vanshthapa04/EdTechApp",
     demo: "https://ed-tech-app-five.vercel.app/",
     featured: false
@@ -115,7 +115,7 @@ export const projects: Project[] = [
       "Persistent chat history"
     ],
     stack: ["Node.js", "Express", "MongoDB", "Gemini API"],
-    image: "https://vansh-portfolio-051.vercel.app/projects/aichatbuddy.png",
+    image: "/projects/aichatbuddy.png",
     github: "https://github.com/vanshthapa04/AiChatBuddy",
     demo: "https://ai-chat-buddy-jade.vercel.app/",
     featured: false
@@ -132,7 +132,7 @@ export const projects: Project[] = [
       "Component-driven architecture"
     ],
     stack: ["React", "Vite", "CSS3"],
-    image: "https://vansh-portfolio-051.vercel.app/projects/jobvista.png",
+    image: "/projects/jobvista.png",
     github: "https://github.com/vanshthapa04/JobVista-ui",
     demo: "https://job-vista-ui.vercel.app/",
     featured: false
