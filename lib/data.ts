@@ -32,6 +32,44 @@ export const projects: Project[] = [
     featured: true
   },
   {
+    slug: "commerceiq",
+    name: "CommerceIQ",
+    tagline: "E-commerce sales analytics dashboard",
+    problem:
+      "Businesses generate massive amounts of sales data, but extracting meaningful insights can be difficult. CommerceIQ transforms raw e-commerce data into interactive dashboards, helping identify revenue trends, customer behavior, product performance, and operational bottlenecks for better business decisions.",
+    features: [
+      "Interactive Tableau dashboard",
+      "End-to-end ETL pipeline",
+      "SQL analytics and business KPIs",
+      "Customer and product performance analysis",
+      "Revenue, delivery, and payment insights"
+    ],
+    stack: ["Python", "SQL", "PostgreSQL", "Tableau", "Pandas"],
+    image: "/projects/commerceiq.png",
+    github: "https://github.com/vanshthapa04/CommerceIQ",
+    demo: "",
+    featured: true
+  },
+  {
+    slug: "peoplepulse",
+    name: "PeoplePulse",
+    tagline: "Employee engagement analytics platform",
+    problem:
+      "Organizations often struggle to understand employee satisfaction until it impacts productivity and retention. PeoplePulse centralizes employee feedback, survey responses, and workforce metrics to uncover engagement trends, identify potential risks, and support data-driven HR decisions.",
+    features: [
+      "Employee and manager surveys",
+      "Workforce engagement analytics",
+      "Interactive HR dashboards",
+      "Department-wise performance insights",
+      "Survey response and sentiment analysis"
+    ],
+    stack: ["React", "Node.js", "Express.js", "PostgreSQL", "Chart.js"],
+    image: "/projects/peoplepulse.png",
+    github: "https://github.com/vanshthapa04/PeoplePulse",
+    demo: "https://peoplepulse-ai-3atjcus4thmozr2hjrfwdb.streamlit.app/",
+    featured: true
+  },
+  {
     slug: "repomind-ai",
     name: "RepoMind AI",
     tagline: "AI-powered repository analyzer",
