@@ -13,6 +13,46 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "internai",
+    name: "InternAI",
+    tagline: "AI-powered adaptive learning and career hub",
+    problem:
+      "Students and job seekers rarely get a single platform that adapts to their skills, timeline, and goals — most tools handle only one piece of the puzzle. InternAI unifies roadmap generation, internship matching, mock interviews, coding practice, and resume analysis into one adaptive platform driven by each user's profile.",
+    features: [
+      "AI-generated skill roadmaps",
+      "Internship matching engine",
+      "AI mock interviews with feedback",
+      "Coding practice environment",
+      "Company-specific interview prep",
+      "ATS resume analyzer"
+    ],
+    stack: ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    image: "/projects/internai.png",
+    github: "https://github.com/vanshthapa04/InternAI",
+    demo: "https://getjobji.vercel.app/",
+    featured: true
+  },
+  {
+    slug: "phonepe-transaction-analytics",
+    name: "PhonePe Transaction Analytics",
+    tagline: "Interactive BI dashboard for digital payment data",
+    problem:
+      "Raw transaction logs don't tell stakeholders where the business is winning or losing. This dashboard transforms a raw PhonePe-style transaction dataset into an interactive Power BI report — surfacing payment success rates, customer demographics, and top-performing services so decisions can be made from evidence instead of guesswork.",
+    features: [
+      "Executive KPI overview",
+      "Monthly transaction trend analysis",
+      "Payment success/failure breakdown",
+      "Customer segmentation by demographics",
+      "Service-wise performance comparison",
+      "Weekday vs weekend usage analysis"
+    ],
+    stack: ["Power BI", "Power Query", "DAX", "Excel"],
+    image: "/projects/dashboard.png",
+    github: "https://github.com/vanshthapa04/PhonePe-transaction-analytics",
+    demo: "",
+    featured: true
+  },
+  {
     slug: "recruiter-lens",
     name: "RecruiterLens",
     tagline: "Smart resume screening platform",
@@ -88,42 +128,6 @@ export const projects: Project[] = [
     featured: true
   },
   {
-    slug: "hireready-ai",
-    name: "HireReady AI",
-    tagline: "ATS scoring and interview preparation",
-    problem:
-      "Career prep tools are scattered across five different apps. HireReady AI consolidates resume scoring, interview practice, and feedback into a single platform.",
-    features: [
-      "ATS score checker",
-      "AI-driven interview preparation",
-      "Resume feedback",
-      "Career guidance"
-    ],
-    stack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-    image: "/projects/hireready.png",
-    github: "https://github.com/vanshthapa04/HireReadyAI-frontend-",
-    demo: "https://hire-ready-ai-frontend.vercel.app/",
-    featured: true
-  },
-  {
-    slug: "sql-sandbox",
-    name: "SQL Sandbox",
-    tagline: "Real-time PostgreSQL playground",
-    problem:
-      "Learning SQL usually means setting up a local database first. SQL Sandbox removes that barrier with a zero-setup, browser-based query editor.",
-    features: [
-      "Real-time SQL execution",
-      "PostgreSQL integration",
-      "Assignment-based learning flow",
-      "Query result visualization"
-    ],
-    stack: ["React", "Node.js", "PostgreSQL"],
-    image: "/projects/sqlsandbox.png",
-    github: "https://github.com/vanshthapa04/CipherSchools-sql-studio",
-    demo: null,
-    featured: false
-  },
-  {
     slug: "knowledgehub",
     name: "KnowledgeHub",
     tagline: "AI-powered personalized learning roadmap",
@@ -140,59 +144,25 @@ export const projects: Project[] = [
     github: "https://github.com/vanshthapa04/EdTechApp",
     demo: "https://ed-tech-app-five.vercel.app/",
     featured: false
-  },
-  {
-    slug: "aichatbuddy",
-    name: "AIChatBuddy",
-    tagline: "AI-powered chatbot application",
-    problem:
-      "A lightweight, self-hosted conversational AI app built to explore real-time chat architecture backed by the Gemini API.",
-    features: [
-      "Real-time conversation flow",
-      "Gemini API integration",
-      "Persistent chat history"
-    ],
-    stack: ["Node.js", "Express", "MongoDB", "Gemini API"],
-    image: "/projects/aichatbuddy.png",
-    github: "https://github.com/vanshthapa04/AiChatBuddy",
-    demo: "https://ai-chat-buddy-jade.vercel.app/",
-    featured: false
-  },
-  {
-    slug: "jobvista-ui",
-    name: "JobVista UI",
-    tagline: "Modern responsive job listings frontend",
-    problem:
-      "A clean, fast frontend for browsing job listings, built to practice component architecture and responsive layout systems without a heavy framework.",
-    features: [
-      "Responsive listing grid",
-      "Filter and search UI",
-      "Component-driven architecture"
-    ],
-    stack: ["React", "Vite", "CSS3"],
-    image: "/projects/jobvista.png",
-    github: "https://github.com/vanshthapa04/JobVista-ui",
-    demo: "https://job-vista-ui.vercel.app/",
-    featured: false
   }
 ];
 
 export const skills = {
   Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
-  Backend: ["Node.js", "Express.js", "REST APIs", "JWT Authentication"],
-  Database: ["PostgreSQL", "MongoDB", "Prisma ORM"],
+  Backend: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Middleware"],
+  Database: ["PostgreSQL", "MongoDB", "Prisma ORM", "Neon"],
   Tools: ["Git", "GitHub", "Vercel", "Postman"]
 };
 
 export const experience = [
   {
-    role: "MERN Stack Developer Trainee",
+    role: "Full-Stack Developer Intern",
     company: "Gokboru Tech Pvt. Ltd.",
     period: "2025",
     points: [
-      "Built scalable full-stack applications using the MERN stack.",
-      "Developed RESTful APIs with authentication and secure backend architecture.",
-      "Designed responsive UI components and improved overall user experience."
+      "Built scalable full-stack web applications using the MERN stack, implementing modular architecture, reusable components, efficient state management, and seamless frontend-backend integration.",
+      "Developed secure RESTful APIs with Node.js and Express.js, implementing authentication and authorization, database integration, input validation, error handling, and structured backend architecture for reliable application performance.",
+      "Designed responsive and reusable UI components using React.js, focusing on intuitive user experiences, responsive layouts, performance optimization, and consistent design across different screen sizes."
     ]
   }
 ];
