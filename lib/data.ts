@@ -103,7 +103,7 @@ export const projects: Project[] = [
       "Department-wise performance insights",
       "Survey response and sentiment analysis"
     ],
-    stack: ["React", "Node.js", "Express.js", "PostgreSQL", "Chart.js"],
+    stack: ["Python", "Pandas", "Numpy", "Streamlit", "Plotly", "Scikit-learn"],
     image: "/projects/peoplepulse.png",
     github: "https://github.com/vanshthapa04/PeoplePulse",
     demo: "https://peoplepulse-ai-3atjcus4thmozr2hjrfwdb.streamlit.app/",
@@ -148,10 +148,13 @@ export const projects: Project[] = [
 ];
 
 export const skills = {
+  Languages: ["C++17", "JavaScript", "Python", "SQL"],
+  "AI and APIs": ["Open AI","Gemini", "Prompt Engineering"],
   Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
   Backend: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Middleware"],
   Database: ["PostgreSQL", "MongoDB", "Prisma ORM", "Neon"],
-  Tools: ["Git", "GitHub", "Vercel", "Postman"]
+  Tools: ["Git", "GitHub", "Vercel", "Postman"],
+
 };
 
 export const experience = [
@@ -182,6 +185,12 @@ export const achievements = [
     title: "Volunteer recognition",
     description:
       "Recognized for contribution, collaboration, and active participation in community initiatives."
+  },
+  {
+    title: "Problem-Solving",
+    description:
+      "Solved 400+ coding problems accross platforms like Leetcode and GeeksforGeeks showcasing thinking ability and problem solving skills."
+
   }
 ];
 
