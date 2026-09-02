@@ -13,6 +13,26 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "ledger",
+    name: "Ledger",
+    tagline: "Real-time project collaboration workspace for freelancer-client handoff",
+    problem:
+      "Generic chat apps treat every conversation as disposable — deliverables get buried in scroll history, and there's no shared record of what was promised, sent, or completed. Ledger reframes chat as the interface for a project, not the product itself, pairing real-time messaging with a persistent file library and milestone tracker so freelancers and clients always have a single source of truth for a project's status.",
+    features: [
+      "Real-time messaging with typing indicators and live presence",
+      "Horizontally scalable WebSocket architecture via Redis pub/sub",
+      "Project-scoped rooms with invite-code-based membership",
+      "Dedicated file library separating shared assets from chat noise",
+      "Milestone tracker with live progress bar and status stamps",
+      "Async notification queue for offline users"
+    ],
+    stack: ["React", "Node.js", "Express.js", "Socket.io", "PostgreSQL", "Prisma", "Redis", "Docker", "BullMQ"],
+    image: "/projects/ledger.png",
+    github: "https://github.com/vanshthapa04/chat-app",
+    demo: "https://ledger-chat-app.vercel.app/",
+    featured: true
+  },
+  {
     slug: "internai",
     name: "InternAI",
     tagline: "AI-powered adaptive learning and career hub",
