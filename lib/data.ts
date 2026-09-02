@@ -172,8 +172,8 @@ export const skills = {
   "AI and APIs": ["Open AI","Gemini", "Prompt Engineering"],
   Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
   Backend: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Middleware"],
-  Database: ["PostgreSQL", "MongoDB", "Prisma ORM", "Neon"],
-  Tools: ["Git", "GitHub", "Vercel", "Postman"],
+  Database: ["PostgreSQL", "MongoDB", "Prisma ORM", "Neon", "Redis"],
+  Tools: ["Git", "GitHub", "Vercel", "Postman", "Docker"],
 
 };
 
